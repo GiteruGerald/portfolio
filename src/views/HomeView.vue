@@ -28,7 +28,7 @@
                   <v-icon color="#a71280" x-large class="ml-3">
                     mdi-palette-swatch
                   </v-icon>
-                  <h3 class="white--text ml-3mt-4">Full Stack Web Dev</h3>
+                  <h3 class="white--text ml-3 mt-4">Full Stack Web Dev</h3>
                   <p class="grey--text ml-3 mt-6">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
                     Suscipit voluptas ex, non vero nostrum in<br />,
@@ -51,13 +51,11 @@
                   </v-btn>
                 </div>
                 <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3"
-                    >mdi-book-open-page-variant</v-icon
-                  >
+                  <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
                   <h3 class="white--text ml-3 mt-4">Branding</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                    Suscipit voluptas ex, non vero nostrum in<br />,
                   </p>
                   <v-btn color="#A7121D" dark text>
                     know more
@@ -65,8 +63,58 @@
                   </v-btn>
                 </div>
               </v-col>
+              <v-col cols="12" class="mt-10">
+                <div class="child1">
+                  <h1 class="red--text text-darken-4 mt-4 number">12</h1>
+                  <h3 class="white--text mt-4"> Years Experience</h3>
+                </div>
+                <div class="child2 mRight">
+                  <v-row>
+                    <v-col cols="12" class="childCol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text--darken-4">50+</h1>
+                        <p class="grey--text">Clients</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childCol">
+                      <div class="child2  padding bgColor1">
+                        <h1 class="red--text text--darken-4">122+</h1>
+                        <p class="grey--text">Completed Projects</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+                <div class="child2">
+                  <v-row>
+                    <v-col cols="12" class="childCol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text--darken-4">08</h1>
+                        <p class="grey--text">Years Experience</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childCol">
+                      <div class="child2  padding bgColor1">
+                        <h1 class="red--text text--darken-4">10</h1>
+                        <p class="grey--text">Achievements</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+              </v-col>
             </v-row>
           </div>
+        </v-col>
+        <v-col md="3" offset-md="3" id="about">
+          <h4 class="white--text">FEATURED PROJECTS</h4>
+          <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </v-col>
+        <v-col md="3" class="text-end">
+          <v-btn tile color="#A71210" dark>View All</v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card tile class="pa-2 py-12" outlined height="250px" color="#1e1e1e">
+            <v-img src="1.png"></v-img>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
