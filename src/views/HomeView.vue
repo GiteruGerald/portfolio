@@ -178,7 +178,7 @@
         </v-col>
         <v-col cols="12" class="padd topInverse">
           <div class="second">
-            <div class="secondchild1" id="contact">
+            <div class="secondChild1" id="contact">
               <v-row>
                 <v-col cols="7">
                   <h1 class="white--text">
@@ -190,9 +190,7 @@
                   </p>
                 </v-col>
                 <v-col cols="5">
-                  <v-btn tile color="#A7121D" dark class="mt-16">
-                    Contact
-                  </v-btn>
+                  <v-btn tile color="#A7121D" dark class="mt-16">Contact</v-btn>
                 </v-col>
               </v-row>
             </div>
@@ -217,17 +215,19 @@
         </v-col>
       </v-row>
     </v-container>
+    <FooterBar />
   </v-app>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
-
+import FooterBar from "@/components/Footer.vue";
 export default {
   name: "HomeView",
 
   components: {
     NavBar,
+    FooterBar,
   },
 
   NavBar,
@@ -268,7 +268,7 @@ export default {
   display: inline-block;
   background-color: #1e1e1e;
   padding: 2rem 1rem;
-  vertical-align: middle;
+  vertical-align:middle;
   text-align: left;
   margin-top: 250px;
 }
