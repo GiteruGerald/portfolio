@@ -21,7 +21,7 @@
           <v-btn tile color="#A7121D" dark>About Me</v-btn>
         </v-col>
         <v-col cols="12" class="padd">
-          <div class="first" id="project">
+          <div class="first" id="about">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
@@ -104,7 +104,7 @@
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="about">
+        <v-col md="3" offset-md="3" id="projects">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </v-col>
@@ -230,7 +230,6 @@ export default {
     FooterBar,
   },
 
-  NavBar,
 };
 </script>
 <style scoped>

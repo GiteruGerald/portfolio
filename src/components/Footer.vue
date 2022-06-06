@@ -21,7 +21,7 @@
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
                         <v-btn class="mx-1 white--text" icon>
-                            <v-icon color="#A7121D">mdi-heart</v-icon>
+                            <v-icon color="#A7121D">fa-heart </v-icon>
                         </v-btn>    
                         Created by Gerry J
                     </v-card-text>
