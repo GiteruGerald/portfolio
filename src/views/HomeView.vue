@@ -1,219 +1,242 @@
 <template>
   <v-app
-    id="home"
     :style="{ background: $vuetify.theme.themes.dark.background }"
   >
     <NavBar />
     <v-container fluid>
-      <v-row>
-        <v-col cols="6">
-          <v-img src="gerryJ.black.jpg" contain max-height="500"></v-img>
-        </v-col>
-        <v-col cols="6">
-          <h5 class="red--text text-darken-4 top">Hello I'm Gerry</h5>
-          <h1 class="white--text">Software Engineer</h1>
-          <p class="grey--text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Suscipit temporibus quis alias nihil? Consequuntur deserunt modi
-            maiores obcaecati necessitatibus quam quas autem! <br />Ab
-            praesentium nam adipisci obcaecati optio aspernatur voluptates?
-          </p>
-          <v-btn tile color="#A7121D" dark>About Me</v-btn>
-        </v-col>
-        <v-col cols="12" class="padd">
-          <div class="first" id="about">
-            <v-row>
-              <v-col cols="12">
-                <div class="child bgColor1">
-                  <v-icon color="#a71280" x-large class="ml-3">
-                    mdi-palette-swatch
-                  </v-icon>
-                  <h3 class="white--text ml-3 mt-4">Full Stack Web Dev</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-                    Suscipit voluptas ex, non vero nostrum in<br />,
-                  </p>
-                  <v-btn color="#A71210" dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="child bgColor2">
-                  <v-icon x-large class="ml-3" dark>mdi-shopping</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Product Design</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-                    Suscipit voluptas ex, non vero nostrum in<br />,
-                  </p>
-                  <v-btn dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Branding</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-                    Suscipit voluptas ex, non vero nostrum in<br />,
-                  </p>
-                  <v-btn color="#A7121D" dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-              </v-col>
-              <v-col cols="12" class="mt-10">
-                <div class="child1">
-                  <h1 class="red--text text-darken-4 mt-4 number">12</h1>
-                  <h3 class="white--text mt-4"> Years Experience</h3>
-                </div>
-                <div class="child2 mRight">
-                  <v-row>
-                    <v-col cols="12" class="childCol">
-                      <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">50+</h1>
-                        <p class="grey--text">Clients</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childCol">
-                      <div class="child2  padding bgColor1">
-                        <h1 class="red--text text--darken-4">122+</h1>
-                        <p class="grey--text">Completed Projects</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
-                <div class="child2">
-                  <v-row>
-                    <v-col cols="12" class="childCol">
-                      <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">08</h1>
-                        <p class="grey--text">Years Experience</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childCol">
-                      <div class="child2  padding bgColor1">
-                        <h1 class="red--text text--darken-4">10</h1>
-                        <p class="grey--text">Achievements</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
-              </v-col>
-            </v-row>
-          </div>
-        </v-col>
-        <v-col md="3" offset-md="3" id="projects">
-          <h4 class="white--text">FEATURED PROJECTS</h4>
-          <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </v-col>
-        <v-col md="3" class="text-end">
-          <v-btn tile color="#A71210" dark>View All</v-btn>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-card tile class="pa-2 py-12" outlined height="250px" color="#1e1e1e">
-            <v-img src="1.png" contain></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3">
-          <v-card tile class="pa-2 py-12" outlined height="250px" color="#1e1e1e">
-            <v-img src="1.png" contain></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> BUGTRAQ </v-btn
-          ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> WATER BILLING SYSTEM </v-btn><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="1.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="1.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn
-          ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col cols="12" class="padd topInverse">
-          <div class="second">
-            <div class="secondChild1" id="contact">
+      <div id="home">
+        <v-row>
+          <v-col cols="6">
+            <v-img src="gerryJ.black.jpg" contain max-height="500"></v-img>
+          </v-col>
+          <v-col cols="6">
+            <h5 class="red--text text-darken-4 top">Hello I'm Gerry</h5>
+            <h1 class="white--text">Software Engineer</h1>
+            <p class="grey--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Suscipit temporibus quis alias nihil? Consequuntur deserunt modi
+              maiores obcaecati necessitatibus quam quas autem! <br />Ab
+              praesentium nam adipisci obcaecati optio aspernatur voluptates?
+            </p>
+            <v-btn tile color="#A7121D" dark>About Me</v-btn>
+          </v-col>
+          <v-col cols="12" class="padd">
+            <div class="first" id="about">
               <v-row>
-                <v-col cols="7">
-                  <h1 class="white--text">
-                    Let's work together on<br />your next project
-                  </h1>
-                  <p class="grey--text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius nesciunt ducimus natus <br />
-                  </p>
+                <v-col cols="12">
+                  <div class="child bgColor1">
+                    <v-icon color="#a71280" x-large class="ml-3">
+                      mdi-palette-swatch
+                    </v-icon>
+                    <h3 class="white--text ml-3 mt-4">Full Stack Web Dev</h3>
+                    <p class="grey--text ml-3 mt-6">
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.<br />
+                      Suscipit voluptas ex, non vero nostrum in<br />,
+                    </p>
+                    <v-btn color="#A71210" dark text>
+                      know more
+                      <v-icon right>mdi-arrow-right</v-icon>
+                    </v-btn>
+                  </div>
+                  <div class="child bgColor2">
+                    <v-icon x-large class="ml-3" dark>mdi-shopping</v-icon>
+                    <h3 class="white--text ml-3 mt-4">Product Design</h3>
+                    <p class="grey--text ml-3 mt-6">
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.<br />
+                      Suscipit voluptas ex, non vero nostrum in<br />,
+                    </p>
+                    <v-btn dark text>
+                      know more
+                      <v-icon right>mdi-arrow-right</v-icon>
+                    </v-btn>
+                  </div>
+                  <div class="child bgColor1">
+                    <v-icon color="#A7121D" x-large class="ml-3"
+                      >mdi-book-open-page-variant</v-icon
+                    >
+                    <h3 class="white--text ml-3 mt-4">Branding</h3>
+                    <p class="grey--text ml-3 mt-6">
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.<br />
+                      Suscipit voluptas ex, non vero nostrum in<br />,
+                    </p>
+                    <v-btn color="#A7121D" dark text>
+                      know more
+                      <v-icon right>mdi-arrow-right</v-icon>
+                    </v-btn>
+                  </div>
                 </v-col>
-                <v-col cols="5">
-                  <v-btn tile color="#A7121D" dark class="mt-16">Contact</v-btn>
+                <v-col cols="12" class="mt-10">
+                  <div class="child1">
+                    <h1 class="red--text text-darken-4 mt-4 number">12</h1>
+                    <h3 class="white--text mt-4">Years Experience</h3>
+                  </div>
+                  <div class="child2 mRight">
+                    <v-row>
+                      <v-col cols="12" class="childCol">
+                        <div class="child2 mButton padding bgColor1">
+                          <h1 class="red--text text--darken-4">50+</h1>
+                          <p class="grey--text">Clients</p>
+                        </div>
+                      </v-col>
+                      <v-col cols="12" class="childCol">
+                        <div class="child2 padding bgColor1">
+                          <h1 class="red--text text--darken-4">122+</h1>
+                          <p class="grey--text">Completed Projects</p>
+                        </div>
+                      </v-col>
+                    </v-row>
+                  </div>
+                  <div class="child2">
+                    <v-row>
+                      <v-col cols="12" class="childCol">
+                        <div class="child2 mButton padding bgColor1">
+                          <h1 class="red--text text--darken-4">08</h1>
+                          <p class="grey--text">Years Experience</p>
+                        </div>
+                      </v-col>
+                      <v-col cols="12" class="childCol">
+                        <div class="child2 padding bgColor1">
+                          <h1 class="red--text text--darken-4">10</h1>
+                          <p class="grey--text">Achievements</p>
+                        </div>
+                      </v-col>
+                    </v-row>
+                  </div>
                 </v-col>
               </v-row>
             </div>
-          </div>
-          <v-toolbar class="topTolbar" color="#111111" dark flat>
-            <div
-              style="
-                position: absolute;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-              "
+          </v-col>
+          <v-col md="3" offset-md="3" id="projects">
+            <h4 class="white--text">FEATURED PROJECTS</h4>
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </v-col>
+          <v-col md="3" class="text-end">
+            <v-btn tile color="#A71210" dark>View All</v-btn>
+          </v-col>
+          <v-col md="3" offset-md="3">
+            <v-card
+              tile
+              class="pa-2 py-12"
+              outlined
+              height="250px"
+              color="#1e1e1e"
             >
-              <v-btn text>Home</v-btn>
-              <v-btn text>Project</v-btn>
-              <v-btn text>about</v-btn>
-              <v-btn text> contact</v-btn>
+              <v-img src="1.png" contain></v-img>
+            </v-card>
+          </v-col>
+          <v-col md="3">
+            <v-card
+              tile
+              class="pa-2 py-12"
+              outlined
+              height="250px"
+              color="#1e1e1e"
+            >
+              <v-img src="1.png" contain></v-img>
+            </v-card>
+          </v-col>
+          <v-col md="3" offset-md="3">
+            <v-btn color="white" dark text class="ml-n4"> BUGTRAQ </v-btn><br />
+
+            <v-btn color="#A7121D" dark text class="ml-n4">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col md="3">
+            <v-btn color="white" dark text class="ml-n4">
+              WATER BILLING SYSTEM </v-btn
+            ><br />
+
+            <v-btn color="#A7121D" dark text class="ml-n4">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col md="3" offset-md="3">
+            <v-card
+              class="pa-2 py-12"
+              outlined
+              tile
+              height="250px"
+              color="#1E1E1E"
+            >
+              <v-img src="1.png" contain max-height=""></v-img>
+            </v-card>
+          </v-col>
+          <v-col md="3">
+            <v-card
+              class="pa-2 py-12"
+              outlined
+              tile
+              height="250px"
+              color="#1E1E1E"
+            >
+              <v-img src="1.png" contain max-height=""></v-img>
+            </v-card>
+          </v-col>
+          <v-col md="3" offset-md="3">
+            <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn
+            ><br />
+
+            <v-btn color="#A7121D" dark text class="ml-n4">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col md="3">
+            <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
+            <v-btn color="#A7121D" dark text class="ml-n4">
+              know more
+              <v-icon right>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col cols="12" class="padd topInverse">
+            <div class="second">
+              <div class="secondChild1" id="contact">
+                <v-row>
+                  <v-col cols="7">
+                    <h1 class="white--text">
+                      Let's work together on<br />your next project
+                    </h1>
+                    <p class="grey--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eius nesciunt ducimus natus <br />
+                    </p>
+                  </v-col>
+                  <v-col cols="5">
+                    <v-btn tile color="#A7121D" dark class="mt-16"
+                      >Contact</v-btn
+                    >
+                  </v-col>
+                </v-row>
+              </div>
             </div>
-          </v-toolbar>
-        </v-col>
-      </v-row>
+            <v-toolbar class="topTolbar" color="#111111" dark flat>
+              <div
+                style="
+                  position: absolute;
+                  margin-left: auto;
+                  margin-right: auto;
+                  left: 0;
+                  right: 0;
+                  text-align: center;
+                "
+              >
+                <v-btn text>Home</v-btn>
+                <v-btn text>Project</v-btn>
+                <v-btn text>about</v-btn>
+                <v-btn text> contact</v-btn>
+              </div>
+            </v-toolbar>
+          </v-col>
+        </v-row>
+      </div>
     </v-container>
     <FooterBar />
   </v-app>
@@ -229,7 +252,6 @@ export default {
     NavBar,
     FooterBar,
   },
-
 };
 </script>
 <style scoped>
@@ -267,7 +289,7 @@ export default {
   display: inline-block;
   background-color: #1e1e1e;
   padding: 2rem 1rem;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: left;
   margin-top: 250px;
 }
