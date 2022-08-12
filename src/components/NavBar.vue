@@ -1,7 +1,9 @@
 <template>
     <v-app-bar app dark flat class="px-8">
         <v-btn icon>
-            <v-icon color="#A71210">fas fa-dragon</v-icon>
+            <v-img src="GJ-Logo.png" contain max-height="65"></v-img>
+
+            <v-icon color="#72DAEF">fas fa-dragon</v-icon>
         </v-btn>
         <v-spacer></v-spacer>
         <v-btn text @click="scroll('home')">Home</v-btn>
