@@ -10,9 +10,9 @@
             <v-img src="gerryJ.black.jpg" contain max-height="500"></v-img>
           </v-col>
           <v-col cols="6">
-            <h5 class="text-darken-4 top">
-              <span style="color:#72DAEF">Hello I'm Gerry</span>
-            </h5>
+            <h2 class="text-darken-8 top">
+              <span style="color:#72DAEF">Hi there👋🏽, I'm Gerald Giteru</span>
+            </h2>
             <h1 class="white--text">Software Engineer</h1>
             <p class="grey--text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -25,7 +25,7 @@
           <v-col cols="12" class="padd">
             <div class="first" id="about">
               <v-row>
-                <v-col cols="12">
+                <v-col lg="12" md="9">
                   <div class="child bgColor1">
                     <v-icon color="#72DAEF" x-large class="ml-3">
                       mdi-palette-swatch
@@ -70,7 +70,7 @@
                     </v-btn>
                   </div>
                 </v-col>
-                <v-col cols="12" class="mt-10">
+                <v-col class="mt-10">
                   <div class="child1">
                     <h1 class="text-darken-4 mt-4 number">12</h1>
                     <h3 class="white--text mt-4">Years Experience</h3>
@@ -79,13 +79,13 @@
                     <v-row>
                       <v-col cols="12" class="childCol">
                         <div class="child2 mButton padding bgColor1">
-                          <h1 class="red--text text--darken-4">50+</h1>
+                          <h1 class="text--darken-4" style="color:#72DAEF">50+</h1>
                           <p class="grey--text">Clients</p>
                         </div>
                       </v-col>
                       <v-col cols="12" class="childCol">
                         <div class="child2 padding bgColor1">
-                          <h1 class="red--text text--darken-4">122+</h1>
+                          <h1 class="text--darken-4" style="color:#72DAEF">122+</h1>
                           <p class="grey--text">Completed Projects</p>
                         </div>
                       </v-col>
@@ -95,13 +95,13 @@
                     <v-row>
                       <v-col cols="12" class="childCol">
                         <div class="child2 mButton padding bgColor1">
-                          <h1 class="red--text text--darken-4">08</h1>
+                          <h1 class="text--darken-4" style="color:#72DAEF">08</h1>
                           <p class="grey--text">Years Experience</p>
                         </div>
                       </v-col>
                       <v-col cols="12" class="childCol">
                         <div class="child2 padding bgColor1">
-                          <h1 class="red--text text--darken-4">10</h1>
+                          <h1 class="text--darken-4" style="color:#72DAEF">10</h1>
                           <p class="grey--text">Achievements</p>
                         </div>
                       </v-col>
@@ -111,7 +111,7 @@
               </v-row>
             </div>
           </v-col>
-          <v-col md="3" offset-md="3" id="projects">
+          <v-col md="12" offset-md="10" id="projects">
             <h4 class="white--text">FEATURED PROJECTS</h4>
             <p class="grey-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -320,6 +320,8 @@ export default {
   display: inline-block;
   width: 245px;
   vertical-align: middle;
+  color: #72DAEF;
+
 }
 .mRight {
   margin-right: 8px;
@@ -337,7 +339,6 @@ export default {
   padding: 0 !important;
   
 }
-
 h1.number {
   font-size: 50px;
   font-weight: bold;
