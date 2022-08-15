@@ -1,8 +1,13 @@
 <template>
     <v-row>
-        <div class="flex">
-            <v-col cols="12">
-                  <div class="child bgColor1">
+      <h2 class="white--text ml-4">Skills & Experiences</h2>
+
+        </v-col>
+
+
+<!-- Before -->
+        <div class="skills_div">
+                  <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#1e1e1e">
                     <v-icon color="#72DAEF" x-large class="ml-3">
                       mdi-palette-swatch
                     </v-icon>
@@ -16,8 +21,9 @@
                       know more
                       <v-icon right>mdi-arrow-right</v-icon>
                     </v-btn>
-                  </div>
-                  <div class="child bgColor2">
+                  </v-col>
+
+                  <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#72DAEF">
                     <v-icon x-large class="ml-3" dark>mdi-shopping</v-icon>
                     <h3 class="white--text ml-3 mt-4">Product Design</h3>
                     <p class="grey--text ml-3 mt-6">
@@ -29,8 +35,8 @@
                       know more
                       <v-icon right>mdi-arrow-right</v-icon>
                     </v-btn>
-                  </div>
-                  <div class="child bgColor1">
+                  </v-col>
+                  <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#1e1e1e">
                     <v-icon color="#72DAEF" x-large class="ml-3"
                       >mdi-book-open-page-variant</v-icon
                     >
@@ -44,19 +50,42 @@
                       know more
                       <v-icon right>mdi-arrow-right</v-icon>
                     </v-btn>
-                  </div>
-                
-            </v-col>
-        </div>
+                  </v-col>
+<!-- App Badges -->
+              <AppBadges/>
+              </div>
     </v-row>
 </template>
 
 <script>
+import AppBadges from './AppBadges.vue';
     export default {
-        
+        components:{
+    AppBadges
+}
     }
 </script>
 
 <style lang="scss" scoped>
+.child {
+  display: inline-block;
+  padding: 2rem 1rem;
+  // vertical-align: middle;
+  text-align: left;
+  margin-right: 3px;
+}
+.skills_div{
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #181818,
+    #181818 50%,
+    #111111 50%,
+    #111111 50%
+  );
+  text-align: center;
+  // padding: 2rem 2rem;
+}
+
 
 </style>

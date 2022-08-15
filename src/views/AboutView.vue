@@ -6,10 +6,11 @@
   <v-container fluid>
     <!-- Intro -->
       
-        <intro/>
+        <intro id="home"/>
       
     <!-- About -->
-        <Skills/>
+
+        <Skills id="skills"/>
     <!-- Projects -->
       <v-row>
 

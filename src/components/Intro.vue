@@ -37,6 +37,7 @@
 }
 .flex{
     display: flex;
+    margin-left: 20px;
 }
 
 </style>
