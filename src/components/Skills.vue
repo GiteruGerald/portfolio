@@ -2,12 +2,13 @@
     <v-row>
       <h2 class="white--text ml-4">Skills & Experiences</h2>
 
-        </v-col>
-
 
 <!-- Before -->
         <div class="skills_div">
-                  <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#1e1e1e">
+          <!-- App Badges -->
+              <AppBadges/>
+              
+                  <v-col cols="3" md="3" sm="3" xs="12" class="child mt-3" style="background-color:#1e1e1e">
                     <v-icon color="#72DAEF" x-large class="ml-3">
                       mdi-palette-swatch
                     </v-icon>
@@ -51,8 +52,7 @@
                       <v-icon right>mdi-arrow-right</v-icon>
                     </v-btn>
                   </v-col>
-<!-- App Badges -->
-              <AppBadges/>
+
               </div>
     </v-row>
 </template>
