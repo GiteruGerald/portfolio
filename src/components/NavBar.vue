@@ -3,11 +3,12 @@
        
        <v-toolbar dense>
             <v-btn icon>
-                    <v-img src="GJ-Logo.png" contain max-height="65"></v-img>
+                    <router-link to="/"><v-img src="GJ-Logo.png" contain max-height="65"></v-img></router-link>
 
                 </v-btn>
                 <v-spacer></v-spacer>
                     <router-link to="/about">About</router-link>
+                    <router-link to="/hello">Hello</router-link>
                 <v-toolbar-items class="hidden-xs-only">
                     <v-btn text @click="scroll('home')">Home</v-btn>
                     <v-btn text @click="scroll('skills')">Skills</v-btn>

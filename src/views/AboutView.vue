@@ -12,13 +12,13 @@
 
         <Skills id="skills"/>
     <!-- Projects -->
-      <v-row>
-
-      </v-row>
+        <Projects id="projects"/>
     <!-- Contact -->
       <v-row>
 
       </v-row>
+      <!-- Footer -->
+      <Footer/>
   </v-container>
   </v-app>
 </template>
@@ -27,12 +27,16 @@
 import NavBar from '@/components/NavBar.vue';
 import Intro from '@/components/Intro.vue';
 import Skills from '@/components/Skills.vue';
+import Footer from '@/components/Footer.vue';
+import Projects from '@/components/Projects.vue';
 
   export default {
     components:{
     NavBar,
     Intro,
-    Skills
+    Skills,
+    Footer,
+    Projects
 }
   }
 </script>
