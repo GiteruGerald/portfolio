@@ -31,12 +31,12 @@
               
             </v-col>
 
-            <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#72DAEF">
+            <v-col cols="3" md="3" sm="3" xs="12" class="child mt-7 " style="background-color:#72DAEF">
               <v-icon x-large class="ml-3" dark>mdi-microsoft-azure-devops</v-icon>
               <h3 class="white--text ml-3 mt-4">Devops</h3>
             
             </v-col>
-            <v-col cols="3" md="3" sm="3" xs="12" class="child" style="background-color:#1e1e1e">
+            <v-col cols="3" md="3" sm="3" xs="12" class="child mt-7 " style="background-color:#1e1e1e">
               <v-icon color="#72DAEF" x-large class="ml-3"
                 >mdi-book-search</v-icon
               >
@@ -65,7 +65,7 @@ import Timeline from './Timeline.vue';
 .child {
   display: inline-block;
   padding: 2rem 1rem;
-  // vertical-align: middle;
+  vertical-align: baseline;
   text-align: left;
   margin-right: 3px;
 }
