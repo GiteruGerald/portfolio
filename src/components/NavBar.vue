@@ -7,8 +7,7 @@
 
                 </v-btn>
                 <v-spacer></v-spacer>
-                    <router-link to="/about">About</router-link>
-                    <router-link to="/hello">Hello</router-link>
+                    
                 <v-toolbar-items class="hidden-xs-only">
                     <v-btn text @click="scroll('home')">Home</v-btn>
                     <v-btn text @click="scroll('skills')">Skills</v-btn>

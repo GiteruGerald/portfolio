@@ -8,11 +8,11 @@
                       <li><v-avatar><img src="../assets/css.png" alt="css"></v-avatar></li>
                       <li><v-avatar><img src="../assets/html.png" alt="html"></v-avatar></li>
                       <li><v-avatar><img src="../assets/javascript.png" alt="javascript"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/node.png" alt="node"></v-avatar></li>
                       <li><v-avatar><img src="../assets/java.png" alt="java"></v-avatar></li>
                       <li><v-avatar><img src="../assets/spring.png" alt="spring"></v-avatar></li>
                       <li><v-avatar><img src="../assets/mysql.png" alt="mysql"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/mongo.png" alt="mongo"></v-avatar></li>
+                      <li><v-avatar><img src="../assets/wordpress.png" alt="mongo"></v-avatar></li>
+                      <li><v-avatar><img src="../assets/mongo.png" alt="wordpress"></v-avatar></li>
                       <li><v-avatar><img src="../assets/api.png" alt="api"></v-avatar></li>
                       <li><v-avatar><img src="../assets/c.png" alt="c"></v-avatar></li>
                       <li><v-avatar><img src="../assets/git.png" alt="git"></v-avatar></li>

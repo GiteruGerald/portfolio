@@ -11,19 +11,29 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text" icon>
-                            <v-icon size="24px">
-                                {{ icon }}    
-                            </v-icon>
-                        </v-btn>
+                        <a href="https://github.com/GiteruGerald/" target="blank">
+                            <v-btn class="mx-1 white--text" icon>
+                                <v-icon size="24px">
+                                    <!-- {{ icon }} -->
+                                        fa-brands fa-github
+                                </v-icon>
+                                <v-spacer></v-spacer>
+                            </v-btn>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gerald-giteru/" target="blank">
+                            <v-btn class="mx-1 white--text" icon>
+                                <v-icon size="24px">
+                                    <!-- {{ icon }} -->
+                                        fa-brands fa-linkedin
+                                </v-icon>
+                            </v-btn>
+                        </a>
                     </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn class="mx-1 white--text" icon>
-                            <v-icon color="#A7121D">fa-heart </v-icon>
-                        </v-btn>    
-                        Created by Gerry J
+                        <p>Design and Developed by Gerald Giteru &copy;{{  new Date().getFullYear() }}</p> 
+                        
                     </v-card-text>
                 </v-col>
             </v-row>
@@ -35,7 +45,8 @@
 export default {
     name:"FooterBar",
     data:()=>({
-        icons:["mdi-facebook","mdi-twitter","mdi-linkedin","mdi-instagram","mdi-github"]
+        icons:["mdi-linkedin",
+        "mdi-github"]
     }),
     setup () {
         

@@ -14,9 +14,8 @@
     <!-- Projects -->
         <Projects id="projects"/>
     <!-- Contact -->
-      <v-row>
-
-      </v-row>
+      
+        <Contact id="contact"/>
       <!-- Footer -->
       <Footer/>
   </v-container>
@@ -29,6 +28,7 @@ import Intro from '@/components/Intro.vue';
 import Skills from '@/components/Skills.vue';
 import Footer from '@/components/Footer.vue';
 import Projects from '@/components/Projects.vue';
+import Contact from '@/components/Contact.vue';
 
   export default {
     components:{
@@ -36,11 +36,18 @@ import Projects from '@/components/Projects.vue';
     Intro,
     Skills,
     Footer,
-    Projects
+    Projects,
+    Contact
 }
   }
 </script>
 
 <style lang="scss" scoped>
-
+.v-row{
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 </style>

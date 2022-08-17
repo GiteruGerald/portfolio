@@ -7,12 +7,15 @@
                 </h2>
                 <h1 class="white--text">Software Engineer</h1>
                 <p class="grey--text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                Suscipit temporibus quis alias nihil? Consequuntur deserunt modi
-                maiores obcaecati necessitatibus quam quas autem! <br />Ab
-                praesentium nam adipisci obcaecati optio aspernatur voluptates?
+                 Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
                 </p>
-                <v-btn tile color="#72DAEF" dark>About Me</v-btn>    
+                <a href="https://drive.google.com/file/d/188A06yER96qu9JnR6YOtE3XItC5r81mA/view?usp=sharing"
+                 style="text-decoration:none"
+                 target="blank">
+                    <v-btn tile color="#72DAEF" dark>Resume/CV
+                        <v-icon>mdi-download-box</v-icon>
+                    </v-btn>    
+                </a>
           
                 </v-col> 
             <v-col cols="6" md="6" xs="0" class="hidden-xs-only">
@@ -27,17 +30,29 @@
 
 <script>
     export default {
-        name:"Intro"
+        name:"Intro",
+        methods:{
+            scroll(refName){
+                const element = document.getElementById(refName);
+                element.scrollIntoView({behavior: "smooth", inline: ""});
+            }
+        },
     }
 </script>
 
 <style lang="scss" scoped>
+
 .top {
   margin-top: 80px;
 }
 .flex{
     display: flex;
     margin-left: 20px;
+     min-height: 100vh;
+}
+
+</style>
+    
 }
 
 </style>

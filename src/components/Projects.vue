@@ -25,6 +25,7 @@
                                 </v-card-title>
                             </v-img>
                             <v-card-title>{{ item.title }}</v-card-title>
+                            <v-divider></v-divider>
                             <v-card-subtitle> {{ item.text }} </v-card-subtitle>
                             </v-card>
                         </v-hover>
@@ -84,4 +85,5 @@
 .show-btns {
   color: rgba(255, 255, 255, 1) !important;
 }
+
 </style>
