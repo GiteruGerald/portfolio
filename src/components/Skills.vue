@@ -79,7 +79,7 @@ import Timeline from './Timeline.vue';
     #111111 50%
   );
   text-align: center;
-  min-height: 85vh;
+  min-height: 60vh;
   // padding: 2rem 2rem;
 }
 
