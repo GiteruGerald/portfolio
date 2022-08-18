@@ -7,7 +7,7 @@
               Languages & Frameworks I've worked with
             </p>
           <!-- App Badges -->
-          <v-col cols="12">
+          <v-col cols="12" lg="12" md="9" sm="9" xs="12">
             <!-- <v-row> -->
               <!-- <v-col cols="6" lg="6" md="4" sm="3" xs="12"> -->
                 <!-- <Timeline/> -->

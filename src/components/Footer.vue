@@ -1,6 +1,6 @@
 <template>
     <v-footer dark padless>
-        <v-card tile flat class="black white--text py-5 px-5 text-center" width="100%">
+        <v-card tile flat class="black white--text px-5 text-center" width="100%">
             <v-row>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
