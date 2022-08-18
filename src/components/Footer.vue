@@ -3,13 +3,6 @@
         <v-card tile flat class="black white--text py-5 px-5 text-center" width="100%">
             <v-row>
                 <v-col cols="12" sm="4">
-                    <v-card-text class="white--text pt-2">
-                        <v-btn icon>
-                            <v-icon color="#A7121D">fas fa-dragon</v-icon>
-                        </v-btn>
-                    </v-card-text>
-                </v-col>
-                <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
                         <a href="https://github.com/GiteruGerald/" target="blank">
                             <v-btn class="mx-1 white--text" icon>
@@ -29,6 +22,9 @@
                             </v-btn>
                         </a>
                     </v-card-text>
+                </v-col>
+                <v-col cols="12" sm="4">
+                    
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">

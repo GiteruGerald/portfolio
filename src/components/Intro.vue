@@ -1,15 +1,15 @@
 <template>
     <v-row>
-        <div class="flex">
-            <v-col cols="6" md="6" xs="8">
-               <h2 class="text-darken-8 top">
+        <div class="flex" >
+            <v-col cols="6" md="6" xs="8" class="top">
+               <h2 class="text-darken-8 ">
                     <span style="color:#72DAEF">Hi there👋🏽, I'm Gerald Giteru</span>
                 </h2>
                 <h1 class="white--text">Software Engineer</h1>
                 <p class="grey--text">
                  Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
                 </p>
-                <a href="https://drive.google.com/file/d/188A06yER96qu9JnR6YOtE3XItC5r81mA/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1dYo1uwoAmo2c-M0AntMvLILaJGJRGr46/view?usp=sharing"
                  style="text-decoration:none"
                  target="blank">
                     <v-btn tile color="#72DAEF" dark>Resume/CV
@@ -43,7 +43,8 @@
 <style lang="scss" scoped>
 
 .top {
-  margin-top: 80px;
+  margin-top: 150px;
+  margin-left: 40px;
 }
 .flex{
     display: flex;

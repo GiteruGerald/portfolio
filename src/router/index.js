@@ -8,7 +8,10 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta:{
+      title: "Gerald Giteru"
+    }
   },
   
  
@@ -20,4 +23,8 @@ const router = new VueRouter({
   routes
 })
 
+router.beforeEach((to, from, next)=>{
+  document.title = `${to.meta.title}`;
+  next();
+});
 export default router
