@@ -7,7 +7,7 @@
                         <v-col :key="i" cols="12" md="4">
                         <v-hover v-slot="{ hover }">
                             <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }">
-                            <v-img :src="item.img" height="225px">
+                            <v-img :src="item.img" height="225px" contain>
                                 <v-card-title class="text-h6 white--text">
                                 <v-row class="fill-height flex-column" justify="space-between">
                                     <div class="align-self-center mt-10">
@@ -41,6 +41,7 @@
     import bugtraq from '../assets/bugtraq.png';
     import fbars from '../assets/5bars.png';
     import portfolio from '../assets/portfolio.png';
+    import weatherImg from '../assets/weather-app.png';
     export default {
         data: () => ({
       icons: ['mdi-github'],
@@ -62,6 +63,12 @@
           text: 'A portfolio website to showcase my skills and recent projects.',
           img: portfolio,
           glink:"https://github.com/GiteruGerald/portfolio"
+        },
+        {
+          title: 'Weather App',
+          text: 'Coding Challenge of a weather forecast that consumes an API and returns Hourly Weather results',
+          img: weatherImg,
+          glink:"https://github.com/GiteruGerald/weather-app-vue"
         },
       ],
       transparent: 'rgba(255, 255, 255, 0)',

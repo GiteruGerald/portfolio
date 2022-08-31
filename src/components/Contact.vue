@@ -3,7 +3,7 @@
         <div class="second">
                   <div class="secondChild1" >
                     <v-row>
-                      <v-col cols="6" lg="7" md="12" sm="12" xs="12">
+                      <v-col cols="12" lg="7" md="12" sm="12" xs="12">
                         <h1 class="white--text">
                           Have a question or want to say hello? 
                         </h1>

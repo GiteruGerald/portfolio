@@ -23,8 +23,9 @@
 
               <v-list dense class="responsiveMenu">
                 <v-list-item>
-                  <v-list-item-title @click="scroll('home')">HOME</v-list-item-title>
-                    
+                  <v-list-item-title>
+                    <v-btn text @click="scroll('home')">HOME</v-btn>
+                  </v-list-item-title>                    
                   <v-list-item-title>
                     <v-btn text @click="scroll('skills')">Skills</v-btn>
                   </v-list-item-title>

@@ -1,7 +1,7 @@
 <template>
     <v-row>
         <div class="flex" >
-            <v-col cols="6" md="6" xs="8" class="top">
+            <v-col cols="6" xl="6" md="6" xs="8" class="top">
                <h2 class="text-darken-8 ">
                     <span style="color:#72DAEF">Hi there👋🏽, I'm Gerald Giteru</span>
                 </h2>
@@ -18,7 +18,7 @@
                 </a>
           
                 </v-col> 
-            <v-col cols="6" md="6" xs="0" class="hidden-xs-only">
+            <v-col cols="6" xl="6" md="6" xs="0" class="hidden-xs-only">
                 <v-img src="gerryJ.black.jpg" md="20" max-height="500" contain>
                 </v-img>  
             </v-col>
@@ -34,7 +34,7 @@
         methods:{
             scroll(refName){
                 const element = document.getElementById(refName);
-                element.scrollIntoView({behavior: "smooth", inline: ""});
+                element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
             }
         },
     }
