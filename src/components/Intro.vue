@@ -9,7 +9,7 @@
                 <p class="grey--text">
                  Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
                 </p>
-                <a href="https://drive.google.com/file/d/1dYo1uwoAmo2c-M0AntMvLILaJGJRGr46/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/15DU_ap_LQ9XXEc965FGFFBRkzekDBxBN/view?usp=sharing"
                  style="text-decoration:none"
                  target="blank">
                     <v-btn tile color="#72DAEF" dark>Resume/CV
