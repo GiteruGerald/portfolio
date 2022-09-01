@@ -66,7 +66,7 @@ import Timeline from './Timeline.vue';
 <style lang="scss" scoped>
 .child {
   display: inline-flex;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   vertical-align: baseline;
   text-align: left;
   margin-right: 3px;
