@@ -9,29 +9,31 @@
               Languages & Frameworks I've worked with
             </p>
           <!-- App Badges -->
-            <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" max-height="100px" contain>
+            <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" max-height="80px" contain>
                 <v-col cols="12" lg="12" md="9" sm="9" xs="12">
-                    <div class="mt-10">
+                    <div class="skills-flex">
                       <AppBadges/>
                         </div>
-                    <v-col cols="12">
-                            <v-col cols="12" md="12" sm="12" xs="12" class="child mt-7 " style="background-color:#1e1e1e">
-                              <v-icon color="#72DAEF" x-large class="ml-3">mdi-server</v-icon>
-                              <p class="white--text ml-3 mt-4">Software-dev</p>
-                              
-                            </v-col>
-
-                            <v-col cols="12" md="12" sm="12" xs="12" class="child mt-7 " style="background-color:#72DAEF">
-                              <v-icon x-large class="ml-3" dark>mdi-microsoft-azure-devops</v-icon>
-                              <h3 class="white--text ml-3 mt-4">Devops</h3>
-                            
-                            </v-col>
-                            <v-col cols="12" md="12" sm="12" xs="12" class="child mt-7 mb-10" style="background-color:#1e1e1e">
-                              <v-icon color="#72DAEF" x-large class="ml-3">mdi-book-search</v-icon>
-                              <h3 class="white--text ml-3 mt-4">Systems Audit</h3>
-                              
-                            </v-col>
-                        </v-col>
+                        <div class="box-flex">
+                          <v-col cols="12">
+                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 " style="background-color:#1e1e1e">
+                                    <v-icon x-large class="ml-3 hidden-xs-only" color="#72DAEF" >mdi-server</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Software-dev</h3>
+                                    
+                                  </v-col>
+      
+                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 " style="background-color:#72DAEF">
+                                    <v-icon x-large class="ml-3 hidden-xs-only" dark>mdi-microsoft-azure-devops</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Devops</h3>
+                                  
+                                  </v-col>
+                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 mb-10" style="background-color:#1e1e1e">
+                                    <v-icon  x-large class="ml-3 hidden-xs-only" color="#72DAEF">mdi-book-search</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Systems Audit</h3>
+                                    
+                                  </v-col>
+                              </v-col>
+                        </div>
                         
                   <!-- <v-row> -->
                     <!-- <v-col cols="6" lg="6" md="4" sm="3" xs="12"> -->
@@ -84,6 +86,13 @@ import Timeline from './Timeline.vue';
   min-height: 60vh;
   // padding: 2rem 2rem;
 }
-
+.skills-flex{
+  // display:grid;
+  // margin-bottom: 20ex;
+  margin-top: 30ex;
+}
+.box-flex{
+  margin-bottom: 30ex;
+}
 
 </style>
