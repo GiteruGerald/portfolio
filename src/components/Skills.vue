@@ -16,20 +16,20 @@
                         </div>
                         <div class="box-flex">
                           <v-col cols="12">
-                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 " style="background-color:#1e1e1e">
-                                    <v-icon x-large class="ml-3 hidden-xs-only" color="#72DAEF" >mdi-server</v-icon>
-                                    <h3 class="white--text ml-3 mt-4">Software-dev</h3>
+                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 " style="background-color:#1e1e1e">
+                                    <v-icon x-large class="ml-1" color="#72DAEF" >mdi-server</v-icon>
+                                    <span class="white--text mt-4 hidden-xs-only">Software-dev</span>
                                     
                                   </v-col>
       
-                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 " style="background-color:#72DAEF">
-                                    <v-icon x-large class="ml-3 hidden-xs-only" dark>mdi-microsoft-azure-devops</v-icon>
-                                    <h3 class="white--text ml-3 mt-4">Devops</h3>
+                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 " style="background-color:#72DAEF">
+                                    <v-icon x-large class="ml-1" dark>mdi-microsoft-azure-devops</v-icon>
+                                    <span class="white--text mt-4  hidden-xs-only">DevOps</span>
                                   
                                   </v-col>
-                                  <v-col cols="3" md="3" sm="3" xs="3" class="child mt-7 mb-10" style="background-color:#1e1e1e">
-                                    <v-icon  x-large class="ml-3 hidden-xs-only" color="#72DAEF">mdi-book-search</v-icon>
-                                    <h3 class="white--text ml-3 mt-4">Systems Audit</h3>
+                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 mb-10" style="background-color:#1e1e1e">
+                                    <v-icon  x-large class="ml-1" color="#72DAEF">mdi-book-search</v-icon>
+                                    <span class="white--text mt-4 hidden-xs-only">Systems Audit</span>
                                     
                                   </v-col>
                               </v-col>
@@ -67,7 +67,7 @@ import Timeline from './Timeline.vue';
 
 <style lang="scss" scoped>
 .child {
-  display: inline-flex;
+  display: inline-block;
   padding: 2rem 1rem;
   vertical-align: baseline;
   text-align: left;

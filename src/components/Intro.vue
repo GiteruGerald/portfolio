@@ -11,7 +11,8 @@
                 </p>
                 <a href="https://drive.google.com/file/d/15DU_ap_LQ9XXEc965FGFFBRkzekDBxBN/view?usp=sharing"
                  style="text-decoration:none"
-                 target="blank">
+                 target="blank"
+                 class="resume-link">
                     <v-btn tile color="#72DAEF" dark>Resume/CV
                         <v-icon>mdi-download-box</v-icon>
                     </v-btn>    
@@ -51,7 +52,9 @@
     margin-left: 20px;
      min-height: 100vh;
 }
-
+.resume-link{
+    margin-right: 30ex;
+}
 </style>
     
 }
