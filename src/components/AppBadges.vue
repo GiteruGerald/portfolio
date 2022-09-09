@@ -1,39 +1,92 @@
 <template>
-    <div class="app-badges mt-1">
-              <ul>               
-                <v-responsive class="pt-3">
-                  <li><v-avatar><img src="../assets/laravel.png" alt="laravel"></v-avatar></li>
-                  <li><v-avatar><img src="../assets/php.png" alt="php"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/vue.png" alt="vue"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/css.png" alt="css"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/html.png" alt="html"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/javascript.png" alt="javascript"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/java.png" alt="java"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/spring.png" alt="spring"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/mysql.png" alt="mysql"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/wordpress.png" alt="mongo"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/mongo.png" alt="wordpress"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/api.png" alt="api"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/c.png" alt="c"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/git.png" alt="git"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/docker.png" alt="docker"></v-avatar></li>
-                      <li><v-avatar><img src="../assets/k8.png" alt="k8"></v-avatar></li>
+  <v-container fluid>
+    <v-layout>
+      <v-flex md12 xs12 sm12 class="text-center">
+        <v-chip-group dark column>
+          <v-chip
+            class="ma-2"
+            large
+            color="black"
+            pill
+            draggable 
+            v-for="lang in items" :key="lang.name">
+            <v-avatar>
 
-                </v-responsive>  
+              <v-img :src="lang.img"></v-img>
+            </v-avatar>
+            {{ lang.name }}
+          </v-chip>
+        </v-chip-group>
+      </v-flex>
+    </v-layout>
+  </v-container>
 
-
-                
-              </ul>
-           </div> 
 </template>
 
 <script>
+  import images from '@/constants/images';
+
     export default {
-        
+      data: () => ({
+          items:[
+            {
+              name:"javascript",
+              img:images.javascript
+            },
+            {
+              name:"vue",
+              img:images.vue
+            },
+            {
+              name:"html",
+              img:images.html
+            },
+            {
+              name:"css",
+              img:images.css
+            },
+            {
+              name:"laravel",
+              img:images.laravel
+            },
+            {
+              name:"php",
+              img:images.php
+            },
+            {
+              name:"java",
+              img:images.java
+            },
+            {
+              name:"spring",
+              img:images.spring
+            },
+            {
+              name:"mysql",
+              img:images.mysql
+            },
+            {
+              name:"mongo",
+              img:images.mongo
+            },
+            {
+              name:"wordpress",
+              img:images.wordpress
+            },
+            {
+              name:"git",
+              img:images.git
+            },
+            {
+              name:"docker",
+              img:images.docker
+            },
+          ]
+      }),
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 li{
   display: inline;
 }
@@ -41,5 +94,5 @@ li{
   cursor:pointer;
   transform: scale(1.5);
 }
- 
+
 </style>

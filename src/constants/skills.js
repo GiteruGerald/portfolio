@@ -1,20 +1,15 @@
-import { images } from '/images'
+import { images } from './images'
 
 export default [
 
     {
         "name":"HTML",
-        "src": images.html
+        "src": images.aws
     },
 
     {
         "name":"CSS",
         "src": images.css
-    },
-
-    {
-        "name":"C",
-        "src": images.c
     },
 
     {
@@ -39,16 +34,6 @@ export default [
     },
 
     {
-        "name":"React",
-        "src": images.react
-    },
-
-    {
-        "name":"Python",
-        "src": images.python
-    },
-
-    {
         "name":"MySQL",
         "src": images.mysql
     },
@@ -63,10 +48,7 @@ export default [
         "src": images.firebase
     },
 
-    {
-        "name":"Android",
-        "src": images.android
-    },
+   
 
 ]
 

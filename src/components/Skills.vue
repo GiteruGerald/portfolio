@@ -1,7 +1,5 @@
   <template>
     <v-row>
-        
-
       <!-- Before -->
         <div class="skills_div">
           <h2 class="white--text ml-4">SKILLS & EXPERIENCES</h2>
@@ -9,45 +7,38 @@
               Languages & Frameworks I've worked with
             </p>
           <!-- App Badges -->
-            <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" max-height="80px" contain>
                 <v-col cols="12" lg="12" md="9" sm="9" xs="12">
-                    <div class="skills-flex">
+                    <div class="box-flex">
                       <AppBadges/>
-                        </div>
-                        <div class="box-flex">
-                          <v-col cols="12">
-                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 " style="background-color:#1e1e1e">
-                                    <v-icon x-large class="ml-1" color="#72DAEF" >mdi-server</v-icon>
-                                    <span class="white--text mt-4 hidden-xs-only">Software-dev</span>
-                                    
+                    </div>
+                    <div>
+                      <v-container class=" text-center">
+                          <v-row class="fill-height mt-5" justify="center">
+                              <template v-for="(item, i) in items">
+                                  <v-col :key="i" cols="12" md="4">
+                                      <v-card :color="item.color">
+                                      
+                                          <v-card-title class="text-h6 white--text">
+                                          <v-row class="fill-height flex-column" justify="space-between">
+                                              <div class=" mt-10">
+                                                  <v-icon x-large :color="item.iconColor" >
+                                                  {{ item.icon }}
+                                                  </v-icon>
+                                              </div>
+                                          </v-row>
+                                          </v-card-title>
+                                      <v-card-title :class="item.textColor"> {{ item.title   }}</v-card-title>
+                                      <v-divider></v-divider>
+                                      <v-card-subtitle > {{ item.text }} </v-card-subtitle>
+                                      </v-card>
                                   </v-col>
-      
-                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 " style="background-color:#72DAEF">
-                                    <v-icon x-large class="ml-1" dark>mdi-microsoft-azure-devops</v-icon>
-                                    <span class="white--text mt-4  hidden-xs-only">DevOps</span>
-                                  
-                                  </v-col>
-                                  <v-col cols="4" md="4" sm="3" xs="3" class="child mt-7 mb-10" style="background-color:#1e1e1e">
-                                    <v-icon  x-large class="ml-1" color="#72DAEF">mdi-book-search</v-icon>
-                                    <span class="white--text mt-4 hidden-xs-only">Systems Audit</span>
-                                    
-                                  </v-col>
-                              </v-col>
-                        </div>
-                        
-                  <!-- <v-row> -->
-                    <!-- <v-col cols="6" lg="6" md="4" sm="3" xs="12"> -->
-                      <!-- <Timeline/> -->
-        
-                    <!-- </v-col > -->
-                    <!-- <v-spacer></v-spacer> -->
-                    <!-- <v-col cols="6" lg="6" md="4" sm="3" xs="12"> -->
-        
-                    <!-- </v-col> -->
-                  <!-- </v-row> -->
-                  
+                              </template>
+                          </v-row>
+                   </v-container>
+                    </div>
+                   
+
                 </v-col>
-            </v-parallax>
           
               
 
@@ -58,14 +49,39 @@
 <script>
 
 import AppBadges from './AppBadges.vue';
-import Timeline from './Timeline.vue';
     export default {
-        components:{ AppBadges, Timeline },
+        components:{ AppBadges },
+        data:()=>({
+          items:[
+            {
+              title:"Software Development",
+              icon:"mdi-server",
+              color:"black",
+              textColor:"white--text",
+              iconColor:"#72DAEF"
+            },
+            {
+              title:"DevOps",
+              icon:"mdi-microsoft-azure-devops",
+              color:"#72DAEF",
+              textColor:"white--text",
+              iconColor:"white"
+            },
+            {
+              title:"System Audit",
+              icon:"mdi-book-search",
+              color:"black",
+              textColor:"white--text",
+              iconColor:"#72DAEF"
+            },
+           
+          ]
+        }),
        
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 .child {
   display: inline-block;
   padding: 2rem 1rem;
@@ -83,16 +99,9 @@ import Timeline from './Timeline.vue';
     #111111 50%
   );
   text-align: center;
-  min-height: 60vh;
-  // padding: 2rem 2rem;
+  min-height: 80vh;
+  padding: 2rem 2rem;
 }
-.skills-flex{
-  // display:grid;
-  // margin-bottom: 20ex;
-  margin-top: 30ex;
-}
-.box-flex{
-  margin-bottom: 30ex;
-}
+
 
 </style>
