@@ -82,13 +82,7 @@ import AppBadges from './AppBadges.vue';
 </script>
 
 <style lang="css" scoped>
-.child {
-  display: inline-block;
-  padding: 2rem 1rem;
-  vertical-align: baseline;
-  text-align: left;
-  margin-right: 3px;
-}
+
 .skills_div{
   width: 100%;
   background: linear-gradient(
