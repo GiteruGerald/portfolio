@@ -4,7 +4,7 @@
         <div class="skills_div">
           <h2 class="white--text ml-4">SKILLS & EXPERIENCES</h2>
           <p class="white--text mt-2">
-              Languages & Frameworks I've worked with
+              Languages & Frameworks I've Worked With
             </p>
           <!-- App Badges -->
                 <v-col cols="12" lg="12" md="9" sm="9" xs="12">

@@ -9,7 +9,7 @@
                 <p class="grey--text">
                  Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
                 </p>
-                <a href="https://drive.google.com/file/d/15DU_ap_LQ9XXEc965FGFFBRkzekDBxBN/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1-XGZatEvvbM0VxyugfBnMKD9QvKwvqqT/view?usp=sharing"
                  style="text-decoration:none"
                  target="blank"
                  class="resume-link">
