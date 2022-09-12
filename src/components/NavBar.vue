@@ -24,16 +24,16 @@
               <v-list dense class="responsiveMenu">
                 <v-list-item>
                   <v-list-item-title>
-                    <v-btn text @click="scroll('home')">HOME</v-btn>
+                    <v-btn text small outlined @click="scroll('home')">HOME</v-btn>
                   </v-list-item-title>                    
                   <v-list-item-title>
-                    <v-btn text @click="scroll('skills')">Skills</v-btn>
+                    <v-btn text small outlined @click="scroll('skills')">Skills</v-btn>
                   </v-list-item-title>
                   <v-list-item-title>
-                    <v-btn text @click="scroll('projects')">Projects</v-btn>
+                    <v-btn text small outlined @click="scroll('projects')">Projects</v-btn>
                   </v-list-item-title>
                   <v-list-item-title>
-                    <v-btn text @click="scroll('contact')">Contact</v-btn>
+                    <v-btn text small outlined @click="scroll('contact')">Contact</v-btn>
                   </v-list-item-title>
                 </v-list-item>
               </v-list>
