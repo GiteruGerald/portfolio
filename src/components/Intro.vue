@@ -9,7 +9,7 @@
                 <p class="grey--text">
                  Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
                 </p>
-                <a href="https://drive.google.com/file/d/1-XGZatEvvbM0VxyugfBnMKD9QvKwvqqT/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1Vdes8DsrEbGX-LHqCO7cp5b2sL0Et4sQ/view?usp=sharing"
                  style="text-decoration:none"
                  target="blank"
                  class="resume-link">
@@ -31,7 +31,6 @@
 
 <script>
     export default {
-        name:"Intro",
         methods:{
             scroll(refName){
                 const element = document.getElementById(refName);
