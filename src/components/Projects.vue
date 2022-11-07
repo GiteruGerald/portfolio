@@ -42,6 +42,7 @@
     import fbars from '../assets/5bars.png';
     import portfolio from '../assets/portfolio.png';
     import weatherImg from '../assets/weather-app.png';
+    import greensett from '../assets/greensett.png';
     export default {
         data: () => ({
       icons: ['mdi-github'],
@@ -69,6 +70,12 @@
           text: 'Coding Challenge of a weather forecast that consumes an API and returns Hourly Weather results',
           img: weatherImg,
           glink:"https://github.com/GiteruGerald/weather-app-vue"
+        },
+        {
+          title: 'GreenSett Logistics',
+          text: 'A landing page of the "GreenSett Logistics" company that is a logistics provider in Kenya',
+          img: greensett,
+          glink:"https://greensett.com"
         },
       ],
       transparent: 'rgba(255, 255, 255, 0)',

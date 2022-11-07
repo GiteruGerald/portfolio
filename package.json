@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.0.1",
+    "@vue/reactivity": "^3.2.39",
+    "@vueuse/core": "^9.2.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",

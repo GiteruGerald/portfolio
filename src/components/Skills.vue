@@ -7,6 +7,7 @@
               Languages & Frameworks I've Worked With
             </p>
           <!-- App Badges -->
+          <!-- TODO: Add 3D hover effect -->
                 <v-col cols="12" lg="12" md="9" sm="9" xs="12">
                     <div class="box-flex">
                       <AppBadges/>
@@ -16,7 +17,7 @@
                           <v-row class="fill-height mt-5" justify="center">
                               <template v-for="(item, i) in items">
                                   <v-col :key="i" cols="12" md="4">
-                                      <v-card :color="item.color">
+                                      <v-card :color="item.color" ref="target">
                                       
                                           <v-card-title class="text-h6 white--text">
                                           <v-row class="fill-height flex-column" justify="space-between">

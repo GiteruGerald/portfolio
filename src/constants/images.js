@@ -24,6 +24,7 @@ import fbars from '../assets/5bars.png';
 import laravel from '../assets/laravel.png';
 import vue from '../assets/vue.png';
 import wordpress from '../assets/wordpress.png';
+import greensett from '../assets/greensett.png';
 
 export default {
 
@@ -52,6 +53,7 @@ export default {
   fbars, 
   laravel,
   vue,
-  wordpress
+  wordpress, 
+  greensett
 
 }
