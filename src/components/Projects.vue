@@ -38,11 +38,7 @@
 </template>
 
 <script>
-    import bugtraq from '../assets/bugtraq.png';
-    import fbars from '../assets/5bars.png';
-    import portfolio from '../assets/portfolio.png';
-    import weatherImg from '../assets/weather-app.png';
-    import greensett from '../assets/greensett.png';
+  import images from '@/constants/images';
     export default {
         data: () => ({
       icons: ['mdi-github'],
@@ -50,35 +46,42 @@
         {
           title: 'BugTraq',
           text: `A bug tracking system of reported software bugs for use in the QA world`,
-          img: bugtraq,
+          img: images.bugtraq,
           glink: "https://github.com/GiteruGerald/BugTraq"
         },
         {
           title: 'FiveBars',
           text: 'A landing page of the "Five Bars Networks" company that is a regional broadband provider in Kenya',
-          img: fbars,
+          img: images.fbars,
           glink: "https://5bars.co.ke"
         },
         {
           title: 'Portfolio',
           text: 'A portfolio website to showcase my skills and recent projects.',
-          img: portfolio,
+          img: images.portfolio,
           glink:"https://github.com/GiteruGerald/portfolio"
         },
         {
           title: 'Weather App',
           text: 'Coding Challenge of a weather forecast that consumes an API and returns Hourly Weather results',
-          img: weatherImg,
+          img: images.weather,
           glink:"https://github.com/GiteruGerald/weather-app-vue"
         },
         {
           title: 'GreenSett Logistics',
           text: 'A landing page of the "GreenSett Logistics" company that is a logistics provider in Kenya',
-          img: greensett,
+          img: images.greensett,
           glink:"https://greensett.com"
         },
+        {
+          title: 'Survey Full Stack Application',
+          text: 'Open source project to build many surveys with numerous choices and receive responses. ',
+          img: images.survey,
+          glink:"https://github.com/GiteruGerald/laravue-survey"
+        },
       ],
-      transparent: 'rgba(255, 255, 255, 0)',
+      // transparent: 'rgba(255, 255, 255, 0)',
+      transparent: 'rgba(245, 40, 145, 0.8)',
     }),
     }
 </script>

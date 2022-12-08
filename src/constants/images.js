@@ -10,6 +10,7 @@ import php from '../assets/php.png';
 import react from '../assets/react.png';
 import java from '../assets/java.png';
 import spring from '../assets/spring.png';
+import portfolio from '../assets/portfolio.png';
 import mysql from '../assets/mysql.png';
 import mongo from '../assets/mongo.png';
 import c from '../assets/c.png';
@@ -23,8 +24,10 @@ import bugtraq from '../assets/bugtraq.png';
 import fbars from '../assets/5bars.png';
 import laravel from '../assets/laravel.png';
 import vue from '../assets/vue.png';
+import weather from '../assets/weather-app.png';
 import wordpress from '../assets/wordpress.png';
 import greensett from '../assets/greensett.png';
+import survey from '../assets/survey-app.png';
 
 export default {
 
@@ -54,6 +57,10 @@ export default {
   laravel,
   vue,
   wordpress, 
-  greensett
+  greensett,
+  survey,
+  portfolio, 
+  weather,
+  
 
 }
