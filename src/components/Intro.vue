@@ -7,9 +7,9 @@
                 </h2>
                 <h1 class="white--text">Software Engineer</h1>
                 <p class="grey--text">
-                 Here to help you develop your solutions and have a taste of the Web-presence that is growing each and everyday.
+                 Here to help you develop your solutions and have a taste of the Web-presence.
                 </p>
-                <a href="https://drive.google.com/file/d/188XWR1HhoWtXsAIDxt9ajzzrc9Tx8Oo4/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1WMSby4GxUbBw38YUnArL3I6-7Lmub702/view?usp=sharing"
                  style="text-decoration:none"
                  target="blank"
                  class="resume-link">
